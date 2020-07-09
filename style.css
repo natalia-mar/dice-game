@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    background-color : #f8f9fa;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin: 3vw;
+}
+body {
+    justify-content: center;
+}
+.header {
+    margin-left: 200px;
+    line-height: 100px;
+}
+
+img {
+    justify-content: center;
+    margin: 50px 150px 0px 170px;
+}
+
+
+.game-area {
+    justify-content: center;
+    margin: 0px 200px 0px 200px;
+    
+}
+
+
+button {
+    padding: 20px;
+    cursor: pointer;
+    border: solid black;
+    padding: 0.5em 0.em;
+    margin-top: 30px;
+    font-size: 15px;
+    box-shadow: 2px gr;
+   
+}
+
+.status h2 {
+    margin-left: 200px;
+}

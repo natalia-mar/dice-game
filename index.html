@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="header"> Dice Game</h1>
+            <h4> 1.Roll the dice to begin the game.</h4>
+            <h4> 2.Each time the dice is rolled the score adds up.</h4>
+            <h4> 3.If the score passes 20, you win. </h4>
+            <h4> 4.If you roll a 1 at any time, you lose and the game restarts. </h4>
+        </div>
+
+        <img src="/assets/dice3.png"/>
+        <div class="game-area">
+            <button id="dice1"  class="dice"" > Roll the dice </button>
+            <h3 class="roll" id="rollStatus"> You rolled </h3>
+            
+        </div class="game-area">
+
+        <div class="status">
+            <h2 class="score" id="scorePlayer"> Total score: </h2>
+        </div>
+
+        
+
+    
+        
+        <script src="/script.js" async defer></script>
+    </body>
+</html>
