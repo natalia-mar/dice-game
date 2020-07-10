@@ -11,12 +11,12 @@ function rollDice() {
     let roll = document.getElementById('rollStatus');
 
     switch(rollValue) {
-        case 1: { document.querySelector("img").src = "/assets/dice1.png"; break;}
-        case 2: { document.querySelector("img").src = "/assets/dice2.png"; break;}
-        case 3: { document.querySelector("img").src = "/assets/dice3.png"; break;}
-        case 4: { document.querySelector("img").src = "/assets/dice4.png"; break;}
-        case 5: { document.querySelector("img").src = "/assets/dice5.png"; break;}
-        case 6: { document.querySelector("img").src = "/assets/dice6.png"; break;}
+        case 1: { document.querySelector("img").src = "assets/dice1.png"; break;}
+        case 2: { document.querySelector("img").src = "assets/dice2.png"; break;}
+        case 3: { document.querySelector("img").src = "assets/dice3.png"; break;}
+        case 4: { document.querySelector("img").src = "assets/dice4.png"; break;}
+        case 5: { document.querySelector("img").src = "assets/dice5.png"; break;}
+        case 6: { document.querySelector("img").src = "assets/dice6.png"; break;}
   }
     roll.textContent =`You rolled ${rollValue}`
     
